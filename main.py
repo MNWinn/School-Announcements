@@ -24,8 +24,13 @@ print(message)
 def job():
     client = Client(account_sid, auth_token)
     for num in numbers:
-        print("Sending to +1" + num)
-        message = client.messages.create(to="+1" + num, from_=sender, body=sms)
+        if len(num) == 10:
+            print("Sending to +1" + num)
+            message = client.messages.create(to="+1" + num, from_=sender, body=sms)
+        else:
+            print("Someone entered their number wrong")
+            
+            
     print("Done")
 
 job()
