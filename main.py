@@ -5,9 +5,9 @@ import schedule, time
 message = 'daily announcement.txt'
 csv_file = 'WCHS Daily Morning Announcements!.csv'
 
-account_sid = 'ACb1cf5ec8359933c381db1afe5db7293a'
-auth_token = '0a0be69e9bf9b3b751090604ae314a1b'
-sender = '+14178155435'
+account_sid = 'use your own'
+auth_token = 'use your own'
+sender = '+1 use twilio number'
 
 with open(message, 'r') as content_file:
     sms = content_file.read()
