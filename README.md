@@ -1,3 +1,2 @@
 # School-Announcements
-This program is one I have made in collaboration and help for me to learn python scripting.
-I used this program to do daily announcements for over a hundred students at my school
+This is a text blast I used to send announcements to the student body. Ranging from club announcements to daily fun facts, the message was sent over a hundred students at my school.
